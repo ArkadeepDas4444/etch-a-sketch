@@ -1,6 +1,7 @@
 .container {
     display: flex;
     flex-wrap: wrap;
+    align-content: center;
     width: 640px;
     height: 640px;
     border: 2px solid black;
@@ -10,4 +11,8 @@
     height: 40px;
     border: 1px solid #ccc;
     box-sizing: border-box;
+}
+#numSqBtn{
+    background-color: yellowgreen;
+    font-size: larger;
 }
