@@ -5,15 +5,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <button id="numSqBtn">Change No. of Sq. per Row</button>
     <div class="container" id="cont"></div>
-    <script>
-        const cont = document.getElementById("cont");
-        for(let i=0; i<16*16; i++)
-        {
-            const sq = document.createElement("div");
-            sq.classList.add("square");
-            cont.appendChild(sq);
-        }
-    </script>
+    <script src="../index.js"></script>
 </body>
 </html>
