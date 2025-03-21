@@ -7,11 +7,11 @@ for(let i=0; i<16*16; i++)
     cont.appendChild(sq);
 }
 
-// document.querySelectorAll(".square").forEach((sq)=>{
-//     document.addEventListener("mouseover",()=>{
-//         sq.style.backgroundColor="black";
-//     });
-// });
+document.querySelectorAll(".square").forEach((sq)=>{
+    sq.addEventListener("mouseover",()=>{
+        sq.style.backgroundColor="black";
+    });
+});
 
 document.getElementById("numSqBtn").addEventListener("click",()=>{
     n = parseInt(prompt("Enter the no. of squares in each row:"));
